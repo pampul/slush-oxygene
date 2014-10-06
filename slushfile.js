@@ -33,13 +33,13 @@ var cssTypeData = {
 gulp.task('default', function (done) {
   inquirer.prompt([
     {type: 'input', name: 'name', message: 'What do you want to name your AngularJS app?', default: getNameProposal()},
-    {type: 'list', name: 'csstype', message: 'What CSS preprocessor do you want to use?', default: 'styl', choices: [
+    {type: 'list', name: 'csstype', message: 'What CSS preprocessor do you want to use?', default: 'sass', choices: [
       {name: 'Stylus', value: 'styl'},
       {name: 'LESS', value: 'less'},
       {name: 'Sass', value: 'sass'}
     ]},
     {type: 'confirm', name: 'coffee', message: 'Do you want to use CoffeeScript in your app?', default: false},
-    {type: 'confirm', name: 'example', message: 'Do you want to include a Todo List example in your app?', default: true}
+    {type: 'confirm', name: 'example', message: 'Do you want to include the Acme Module example in your app?', default: true}
   ],
   function (answers) {
     answers.nameDashed = _.slugify(answers.name);
@@ -52,7 +52,7 @@ gulp.task('default', function (done) {
       files.push('!' + __dirname + '/templates/src/**/*.coffee')
     }
     if (!answers.example) {
-      files.push('!' + __dirname + '/templates/src/app/todo/**');
+      files.push('!' + __dirname + '/templates/src/app/modules/AcmeModule/**');
     }
     answers.styleData = cssTypeData[answers.csstype];
     return gulp.src(files)
