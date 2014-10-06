@@ -1,7 +1,7 @@
 slush-oxygene
 ==============
 
-> A [slush](http://slushjs.github.io) generator for AngularJS with Modules Scaffolding for scalable apps created for my enterprise : [Oxygene Interactive](http://www.oxygene-interactive.com/).
+> A [slush](http://slushjs.github.io) generator for AngularJS with Modules Scaffolding for scalable apps created for my company : [Oxygene Interactive](http://www.oxygene-interactive.com/).
 > [Slush Oxygene](https://github.com/Argetloum/slush-oxygene) is also a fork of the great Slush package : [slush-angular](https://github.com/slushjs/slush-angular)
 
 ## Installation
