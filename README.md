@@ -73,7 +73,7 @@ my-angular-app/
         │       └── AcmeModule.js/coffee    # The Acme module
         └── styles
             ├── mixins                      # The mixins path
-            ├── modules                     # The breakpoints, typo, variables ... path
+            ├── modules                     # The breakpoints, typo, variables ...
             ├── partials                    # The partial views stylesheets path
             ├── vendor                      # The vendor path
             └── app.styl/less/scss          # Main app stylesheet
