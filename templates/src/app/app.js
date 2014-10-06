@@ -1,12 +1,12 @@
 
 angular.module('<%= modulename %>', [
   'ngRoute'<% if (example) { %>,
-  '<%= modulename %>.todo'<% } %>
+  'AcmeModule'<% } %>
 ])<% if (example) { %>
 .config(function ($routeProvider) {
   'use strict';
   $routeProvider
     .otherwise({
-      redirectTo: '/'
+      redirectTo: '/acme'
     });
 })<% } %>;
