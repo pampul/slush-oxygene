@@ -52,7 +52,7 @@ gulp.task('default', function (done) {
       files.push('!' + __dirname + '/templates/src/**/*.coffee')
     }
     if (!answers.example) {
-      files.push('!' + __dirname + '/templates/src/app/modules/AcmeModule/**');
+      files.push('!' + __dirname + '/templates/src/app/modules/**');
     }
     answers.styleData = cssTypeData[answers.csstype];
     return gulp.src(files)
