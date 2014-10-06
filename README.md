@@ -72,7 +72,6 @@ my-angular-app/
         │       ├── views                 # The partial views path
         │       └── AcmeModule.js/coffee  # The Acme module
         └── styles
-            ├── mixins                    # The mixins path
             ├── modules                   # The breakpoints, typo, variables..
             ├── partials                  # The partial views stylesheets path
             ├── vendor                    # The vendor path
