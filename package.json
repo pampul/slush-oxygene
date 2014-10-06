@@ -1,7 +1,7 @@
 {
   "name": "slush-oxygene",
-  "version": "0.1",
-  "description": "A slush generator for AngularJS with Modules Scaffolding for large apps",
+  "version": "0.1.0",
+  "description": "A slush generator for AngularJS with Modules Scaffolding for scalable apps",
   "main": "slushfile.js",
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec test/*_test.js"
@@ -20,7 +20,7 @@
     "sass",
     "karma"
   ],
-  "author": "Florian Mithieux <florian.mithieux@gmail.com>",
+  "author": "Florian Mithieux <florian.mithieux@gmail.com> (http://florian-mithieux.fr)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Argetloum/slush-oxygene/issues"
