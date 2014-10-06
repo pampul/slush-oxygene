@@ -1,6 +1,6 @@
 {
   "name": "slush-oxygene",
-  "version": "0.2",
+  "version": "0.2.0",
   "description": "A slush generator for AngularJS with Modules Scaffolding for scalable apps",
   "main": "slushfile.js",
   "scripts": {
