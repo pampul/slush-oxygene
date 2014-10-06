@@ -53,30 +53,30 @@ my-angular-app/
 ├── .gitignore
 ├── .jshintrc
 ├── bower.json
-├── gulpfile.js                             # See "Gulpfile" below
+├── gulpfile.js                           # See "Gulpfile" below
 ├── karma.conf.js
 ├── README.md
 ├── package.json
 └── src
     └── app
-        ├── app.js/coffee                   # Main app module and configuration
-        ├── index.html                      # The index.html / app layout template
-        ├── assets                          # A folder meant for images and such...
+        ├── app.js/coffee                 # Main app module and configuration
+        ├── index.html                    # The index.html/app layout template
+        ├── assets                        # A folder meant for images and such..
         │   └── .gitkeep
         ├── modules
-        │   └── AcmeModule                  # The name of the module
-        │       ├── controllers             # The controllers path
-        │       ├── directives              # The directives path
-        │       ├── filters                 # The filters path
-        │       ├── services                # The services path
-        │       ├── views                   # The partial views path
-        │       └── AcmeModule.js/coffee    # The Acme module
+        │   └── AcmeModule                # The name of the module
+        │       ├── controllers           # The controllers path
+        │       ├── directives            # The directives path
+        │       ├── filters               # The filters path
+        │       ├── services              # The services path
+        │       ├── views                 # The partial views path
+        │       └── AcmeModule.js/coffee  # The Acme module
         └── styles
-            ├── mixins                      # The mixins path
-            ├── modules                     # The breakpoints, typo, variables..
-            ├── partials                    # The partial views stylesheets path
-            ├── vendor                      # The vendor path
-            └── app.styl/less/scss          # Main app stylesheet
+            ├── mixins                    # The mixins path
+            ├── modules                   # The breakpoints, typo, variables..
+            ├── partials                  # The partial views stylesheets path
+            ├── vendor                    # The vendor path
+            └── app.styl/less/scss        # Main app stylesheet
 ```
 
 ### Gulpfile
