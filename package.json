@@ -1,0 +1,43 @@
+{
+  "name": "slush-oxygene",
+  "version": "0.1",
+  "description": "A slush generator for AngularJS with Modules Scaffolding for large apps",
+  "main": "slushfile.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec test/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Argetloum/slush-oxygene"
+  },
+  "keywords": [
+    "slushgenerator",
+    "angular",
+    "angularjs",
+    "google",
+    "stylus",
+    "less",
+    "sass",
+    "karma"
+  ],
+  "author": "Florian Mithieux <florian.mithieux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Argetloum/slush-oxygene/issues"
+  },
+  "homepage": "https://github.com/Argetloum/slush-oxygene",
+  "dependencies": {
+    "gulp": "~3.8.6",
+    "gulp-template": "~0.1.1",
+    "gulp-install": "~0.2.0",
+    "gulp-conflict": "~0.2.0",
+    "underscore.string": "~2.3.3",
+    "gulp-rename": "~1.2.0",
+    "inquirer": "~0.5.1"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "mock-gulp-dest": "~0.1.0"
+  }
+}
